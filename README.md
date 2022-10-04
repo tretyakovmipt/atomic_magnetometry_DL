@@ -15,7 +15,7 @@ This project is based on the experimental setup used in my Ph.D. work at the Uni
 
 The magnetometer is based on room-temperature rubidium vapor inside a microwave cavity. Depending on the frequency, applying a microwave magnetic field can affect the absorption of a laser light going through the vapor. A linear sweep of the microwave frequency results in an optical absorption pattern consisting of several peaks. The distance between the peaks depends on the magnitude of an external DC magnetic field, while their relative heights depend on the orientation of the DC field and the cavity axis. There is no analytical expression to relate the DC field angle and the relative peak heights, so I proposed to use Deep Learning to tackle this problem.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/541b6b7f-9072-45b3-8580-01205864b6d4/Untitled.png)
+![Untitled](<img width="226" alt="image" src="https://user-images.githubusercontent.com/62848703/193723285-b91e5e57-c90c-4707-a02b-4ca8136c0c11.png">)
 
 ## Main idea
 
