@@ -17,7 +17,7 @@ The magnetometer is based on room-temperature rubidium vapor inside a microwave 
 
 The idea is to feed a recorded photodetector voltage corresponding to the DR signal to a computer algorithm, in our case, a deep neural network, which will return values of $B_{\perp}$ and $B_{||}$.
 
-![Fig. 1](Fig1.png)
+![Fig. 1](FIg1.png)
 
 ## Project goals
 
