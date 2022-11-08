@@ -17,7 +17,7 @@ The magnetometer is based on room-temperature rubidium vapor inside a microwave 
 
 The idea is to feed a recorded photodetector voltage corresponding to the DR signal to a computer algorithm, in our case, a deep neural network, which will return values of $B_{\perp}$ and $B_{||}$.
 
-![Screenshot 2022-11-08 125008.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/174526e3-f86c-4047-9776-4e086b670a01/Screenshot_2022-11-08_125008.png)
+![Fig. 1](Fig1.png)
 
 ## Project goals
 
@@ -60,6 +60,4 @@ I experimented a lot with different network architectures, hyper-parameters, and
     - [reducing_noise_with_autoencoder.ipynb](https://github.com/tretyakovmipt/atomic_magnetometry_DL/blob/main/Training/reducing_noise_with_autoencoder.ipynb) - uses an autoencoder to reduce noise in the signal. I really like the idea of passing a signal through a network with a bottleneck to strip off the noise.
         
         ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/41ed4e13-3408-4f0c-b601-0af12adc41a5/Untitled.png)
-        
-
-![Screenshot 2022-11-08 124840.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7937472a-0a4f-4313-83a5-eca730cd593d/Screenshot_2022-11-08_124840.png)
+        ![Fig. 3](Fig3.png)
