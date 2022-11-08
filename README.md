@@ -59,5 +59,5 @@ I experimented a lot with different network architectures, hyper-parameters, and
     - [transfer-learning.ipynb](https://github.com/tretyakovmipt/atomic_magnetometry_DL/blob/main/Training/transfer-learning.ipynb) - uses the pre-trained model on a new dataset.
     - [reducing_noise_with_autoencoder.ipynb](https://github.com/tretyakovmipt/atomic_magnetometry_DL/blob/main/Training/reducing_noise_with_autoencoder.ipynb) - uses an autoencoder to reduce noise in the signal. I really like the idea of passing a signal through a network with a bottleneck to strip off the noise.
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/41ed4e13-3408-4f0c-b601-0af12adc41a5/Untitled.png)
+        ![Fig 2](Training/model.png)
         ![Fig. 3](Fig3.png)
