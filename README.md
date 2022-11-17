@@ -56,8 +56,5 @@ I experimented a lot with different network architectures, hyper-parameters, and
 - **Data** contains the datasets used for the training and testing.
 - Training contains Jupiter notebooks and a saved pre-trained model.
     - [vanilla-data.ipynb](https://github.com/tretyakovmipt/atomic_magnetometry_DL/blob/main/Training/vanilla-data.ipynb) - pre-trains a model on the vanilla dataset. I compared a fully-connected network with a convolutional network.
-    - [transfer-learning.ipynb](https://github.com/tretyakovmipt/atomic_magnetometry_DL/blob/main/Training/transfer-learning.ipynb) - uses the pre-trained model on a new dataset.
-    - [reducing_noise_with_autoencoder.ipynb](https://github.com/tretyakovmipt/atomic_magnetometry_DL/blob/main/Training/reducing_noise_with_autoencoder.ipynb) - uses an autoencoder to reduce noise in the signal. I really like the idea of passing a signal through a network with a bottleneck to strip off the noise.
-        
-        ![Fig 2](Training/model.png)
-        ![Fig. 3](Fig3.png)
+    - [transfer-learning.ipynb](https://github.com/tretyakovmipt/atomic_magnetometry_DL/blob/main/Training/transfer-learning.ipynb) - uses the pre-trained model on a new dataset.         ![Fig 2](Training/model.png)
+    - [reducing_noise_with_autoencoder.ipynb](https://github.com/tretyakovmipt/atomic_magnetometry_DL/blob/main/Training/reducing_noise_with_autoencoder.ipynb) - uses an autoencoder to reduce noise in the signal. I really like the idea of passing a signal through a network with a bottleneck to strip off the noise. ![Fig. 3](Fig3.png)
